@@ -1,0 +1,4 @@
+test: 
+  script:
+    - ssh yamamoto@danbobigoton "rm -rf /home/yamamoto/public_html/portfolio"
+    - scp -r static yamamoto@danbobigoton:/home/yamamoto/public_html/portfolio
