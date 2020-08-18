@@ -78,6 +78,15 @@ p {
 	flex-shrink: 0;
 }
 
+#navbarMenu li>a {
+  /* font-size:10px; */
+  padding:15px 5px;
+}
+
+.navbar-brand {
+  padding-right: 10px
+}
+
 /* article */
 article {
 	margin-top: 15px;
