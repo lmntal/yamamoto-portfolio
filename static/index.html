@@ -110,7 +110,12 @@
           <h3>Education</h3>
           <div>
             <article>
-              <h5>April 2019 – current: Master's program</h5>
+              <h5>April 2021 – current: Doctoral program</h5>
+              <p>Department of Computer Science and Communications Engineering, Graduate School of Fundamental Science and Engineering, Waseda University</p>
+              <p>Supervisor: Professor Kazunori Ueda</p>
+            </article>
+            <article>
+              <h5>April 2019 – March 2021: Master of Engineering</h5>
               <p>Department of Computer Science and Communications Engineering, Graduate School of Fundamental Science and Engineering, Waseda University</p>
               <p>Supervisor: Professor Kazunori Ueda</p>
             </article>
@@ -128,8 +133,12 @@
         <div class="container">
           <h3>Research Topics</h3>
           <article>
-            <h5>Type Systems for Graph rewriting</h5>
+            <h5>Type Systems for Graph Rewriting</h5>
             <p>The goal is to verify type safety of rewrite rules targeting complicated graph structures rather than simple (algebraic) data structures (i.e., lists or trees). These are not typable with classic type systems in functional languages.</p>
+          </article>
+          <article>
+            <h5>Graph Rewriting on Coq Proof Assistant</h5>
+            <p>In the discussion on graph rewriting, there are many situations where subtle proofs are required. In particular, the arguments of the types above and the correspondence between structural congruences and graph isomorphisms need to be carefully discussed. Therefore, I aim to describe the syntax, semantics, and properties of LMNtal and prove them on the Coq Proof Assistant.</p>
           </article>
           <article>
             <h5>Lambda Calculus</h5>
@@ -166,6 +175,10 @@
             <h5><a data-toggle="collapse" href="#presentation-gcm2021">Naoki Yamamoto, Kazunori Ueda: Engineering Grammar-based Type Checking for Graph Rewriting Languages. In Proc. Twelfth International Workshop on Graph Computation Models (GCM 2021), 2021. (in English, 18pp. refereed paper)</a></h5>
             <p id="presentation-gcm2021" class="collapse">The ability to handle evolving graph structures is important both for programming languages and modeling languages. Of various languages that adopt graphs as primary data structures, a graph rewriting language LMNtal provides features and applications of both (concurrent) programming languages and modeling languages, and its implementation unifies ordinary program execution and model checking functionalities. Unlike pointer manipulation in imperative languages, LMNtal allows us to manipulate graph structures in such a way that the well-formedness of graphs is an invariant guaranteed by the language itself. However, since the shapes of graphs can be more complex and diverse than algebraic data structures such as lists and trees, it is important but not obvious to formulate types of graphs to verify individual programs. With this motivation, this paper discusses LMNtal ShapeType, a type checking method for rewrite rules that applies the basic idea of Structured Gamma to a concrete graph rewriting language. In this method, since types are defined as generative grammars written as LMNtal rules, type checking of LMNtal programs can be done by exploiting model checking features of LMNtal itself. We also gave a full implementation of type checking using the features of the LMNtal meta-interpreter.</p>
           </article>
+          <article>
+            <h5><a data-toggle="collapse" href="#presentation-jssst2021">Naoki Yamamoto, Kazunori Ueda: Proving Properties of Graph Rewriting Languages with the Coq Proof Assistant. In Proc. The 38th JSSST Annual Conference (JSSST 2021), 2021. (in Japanese, 9pp. unrefereed paper)</a></h5>
+            <p id="presentation-jssst2021" class="collapse">A graph rewriting language LMNtal has aspects of both a programming language that expresses computation by graph rewriting and a modeling language that can handle complicated graph structures. LMNtal programs are sometimes accompanied by a graphical representation of the corresponding graph to aid readers' understanding. However, LMNtal terms are not semantically defined as graphs a-priori, but are defined by syntax-directed semantics, similar to computational models like the λ-calculus and π-calculus. Therefore, the correspondence between LMNtal programs and their graphical representations is not obvious. In preparation for clarifying the correspondence between the structural congruence, which is an equivalence relation among LMNtal terms, and graph isomorphism in graph theory, this paper first implements the abstract syntax and semantics of LMNtal on the Coq proof assistant, and then proves some properties of the LMNtal language on Coq.</p>
+          </article>
         </div>
       </section>
 
@@ -199,7 +212,7 @@
       <section id="contact">
         <div class="container">
           <h3>Contact</h3>
-          <code>yamamoto &lt;hidden-mark&gt; ueda.info.waseda.ac.jp</code>
+          <code>yamamoto &lt;hidden-mark-you-know&gt; ueda.info.waseda.ac.jp</code>
           <div class="tag-wrap links">
             <a href="//www.ueda.info.waseda.ac.jp">Back to Ueda Lab. Homepage</a>
           </div>
@@ -208,7 +221,7 @@
     </div>
     <footer class="container">
       <p>Last Updated: %%LAST_UPDATED%%</p>
-      <p>&copy; 2020-2021 Naoki Yamamoto. All rights reserved.</p>
+      <p>&copy; 2020- Naoki Yamamoto. All rights reserved.</p>
     </footer>
 
     <!-- Scripts -->
