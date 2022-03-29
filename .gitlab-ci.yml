@@ -1,5 +1,5 @@
 test: 
   script:
-    - ssh yamamoto@danbobigoton "rm -rf /home/yamamoto/public_html/portfolio"
+    - ssh yamamoto@padano "rm -rf /home/yamamoto/public_html/portfolio"
     - sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index.html
-    - scp -r static yamamoto@danbobigoton:/home/yamamoto/public_html/portfolio
+    - scp -r static yamamoto@padano:/home/yamamoto/public_html/portfolio
