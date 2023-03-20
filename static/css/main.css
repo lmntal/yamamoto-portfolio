@@ -138,8 +138,19 @@ article h4, article h5 {
   margin-bottom: 5px;
 }
 
+article h5 strong {
+  font-weight: unset;
+  text-decoration: underline;
+}
+
 article p {
   margin-bottom: 2px;
+  margin-left: 20px;
+}
+
+article p a {
+  text-decoration: underline;
+  color: #2d8fdd;
 }
 
 article .title{
