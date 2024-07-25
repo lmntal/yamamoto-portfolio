@@ -1,12 +1,20 @@
 /* common */
-h1,h2,h3,h4,h5,h6 {
-  font-family:  "Rounded Mplus 1c", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rounded Mplus 1c", sans-serif;
   font-weight: 300;
   line-height: 1.5;
   /* margin-bottom: 15px; */
 }
 
-a,a:active,a:hover,a:focus {
+a,
+a:active,
+a:hover,
+a:focus {
   outline: none;
   text-decoration: none;
   color: inherit;
@@ -16,18 +24,18 @@ p {
   font-size: 0.8em;
 }
 
-.tag-wrap>*>.svg-inline--fa {
+.tag-wrap > * > .svg-inline--fa {
   margin-right: 3px;
 }
 
 .tag-wrap {
   display: flex;
   flex-wrap: wrap;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
-.tag-wrap>* {
+.tag-wrap > * {
   border-radius: 5px;
   border: 1.5px solid gray;
   color: gray;
@@ -38,10 +46,10 @@ p {
   margin: 0;
   margin-right: 8px;
   margin-top: 5px;
-  list-style-type: none!important;
+  list-style-type: none !important;
 }
 
-.tag-wrap.links>*:hover{
+.tag-wrap.links > *:hover {
   text-decoration: none;
   background-color: rgba(224, 224, 224, 0.9);
   color: gray;
@@ -63,78 +71,81 @@ p {
 .counter h5::before {
   counter-increment: index;
   content: counter(index);
-	font-family: 'Copse', serif;
-	background: rgba(45, 142, 221, 0.75);
-	font-size: 10px;
-	width: 1.8em;
+  font-family: "Copse", serif;
+  background: rgba(45, 142, 221, 0.75);
+  font-size: 10px;
+  width: 1.8em;
   height: 1.8em;
   display: block;
-	line-height: 1.8em;
-	text-align: center;
-	color: white;
-	margin-right: 7px;
-	/* transform: rotate(-5deg); */
-	border-radius: 100%;
-	flex-shrink: 0;
+  line-height: 1.8em;
+  text-align: center;
+  color: white;
+  margin-right: 7px;
+  /* transform: rotate(-5deg); */
+  border-radius: 100%;
+  flex-shrink: 0;
 }
 
-#navbarMenu li>a {
+#navbarMenu li > a {
   /* font-size:10px; */
-  padding:15px 5px;
+  padding: 15px 5px;
 }
 
 .navbar-brand {
-  padding-right: 10px
+  padding-right: 10px;
 }
 
 /* article */
 article {
-	margin-top: 15px;
-	margin-bottom: 5px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   margin-left: 10px;
   min-width: 250px;
 }
-.flex-articles>article {
+.flex-articles > article {
   display: flex;
-	flex-wrap: nowrap;
-	align-items: flex-start;
-	justify-content: flex-start;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 article .enum {
-	font-family: 'Copse', serif;
-	background: rgba(45, 142, 221, 0.75);
-	font-size: 20px;
-	width: 2em;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	color: white;
-	margin-right: 7px;
-	transform: rotate(-15deg);
-	border-radius: 100%;
-	flex-shrink: 0;
+  font-family: "Copse", serif;
+  background: rgba(45, 142, 221, 0.75);
+  font-size: 20px;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+  margin-right: 7px;
+  transform: rotate(-15deg);
+  border-radius: 100%;
+  flex-shrink: 0;
 }
 
 article .icon {
-	font-family: 'Copse', serif;
-	background: rgba(45, 142, 221, 0.75);
-	font-size: 20px;
-	width: 2em;
-	height: 2em;
-	line-height: 2em;
-	text-align: center;
-	color: white;
-	margin-right: 7px;
-	border-radius: 100%;
-	flex-shrink: 0;
+  font-family: "Copse", serif;
+  background: rgba(45, 142, 221, 0.75);
+  font-size: 20px;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+  color: white;
+  margin-right: 7px;
+  border-radius: 100%;
+  flex-shrink: 0;
 }
 
-article h4, article h5, article p {
+article h4,
+article h5,
+article p {
   margin: 0;
 }
 
-article h4, article h5 {
+article h4,
+article h5 {
   margin-bottom: 5px;
 }
 
@@ -153,14 +164,20 @@ article p a {
   color: #2d8fdd;
 }
 
-article .title{
-	margin-right: 10px;
-	margin-bottom: 5px;
+header a {
+  text-decoration: underline;
+  color: #2d8fdd;
+}
+
+article .title {
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 /* body */
 
-body,html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
@@ -169,7 +186,11 @@ body {
   background: url("../images/back.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: 'mgenplus-p-w', 'Noto Sans CJK JP', '源ノ角ゴシック', 'Source Han Sans', '源真ゴシック', 'GenShinGothic', 'M+ 2c', 'Mgen+ 2c', 'Hiragino Sans', 'ヒラギノ角ゴシック', 'ヒラギノ角ゴ Pro W3' ,'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', 'GenShinGothic-w', sans-serif;
+  font-family: "mgenplus-p-w", "Noto Sans CJK JP", "源ノ角ゴシック",
+    "Source Han Sans", "源真ゴシック", "GenShinGothic", "M+ 2c", "Mgen+ 2c",
+    "Hiragino Sans", "ヒラギノ角ゴシック", "ヒラギノ角ゴ Pro W3",
+    "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ ProN W3",
+    "Hiragino Kaku Gothic ProN", "GenShinGothic-w", sans-serif;
 }
 
 #wrapper {
@@ -177,17 +198,17 @@ body {
   padding-top: 60px;
 }
 
-section>.container {
+section > .container {
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 5px;
   max-width: 95%;
   padding-bottom: 15px;
 }
 
-section+section {
+section + section {
   /* border-top: 3px ridge rgba(128, 128, 128, 0.5); */
-  margin-top:-40px;
-  padding-top:60px;
+  margin-top: -40px;
+  padding-top: 60px;
 }
 
 /* About */
@@ -197,19 +218,19 @@ section+section {
   position: relative;
 }
 
-#about>div>ul {
+#about > div > ul {
   padding-left: 5px;
 }
 
-#about>div>ul>li {
+#about > div > ul > li {
   color: #2d8fdd;
   border-left: solid 3px #2d8fdd;
   background: #2d8edd20;
   margin-bottom: 8px;
   font-size: 90%;
- 	line-height: 1.5;
-  	padding: 0.5em;
-  list-style-type: none!important;
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none !important;
 }
 
 #about .svg-inline--fa {
@@ -221,7 +242,7 @@ footer {
   margin-top: 15px;
   margin-bottom: 150px;
   text-align: center;
-  font-family:  "Rounded Mplus 1c", sans-serif;
+  font-family: "Rounded Mplus 1c", sans-serif;
   font-weight: 700;
   color: white;
   filter: drop-shadow(0px 0px 20px black);
