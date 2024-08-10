@@ -32,18 +32,16 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: index.html
-        run: |
-        sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index.html
+        run: sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index.html
       - name: index_j.html
-        run: |
-        sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index_j.html
+        run: sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index_j.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './static'
+          path: "./static"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
