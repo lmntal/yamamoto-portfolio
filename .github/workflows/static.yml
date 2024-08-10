@@ -33,6 +33,7 @@ jobs:
         uses: actions/checkout@v4
       - run: |
         sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index.html
+      - run: |
         sed -i "s/%%LAST_UPDATED%%/$(LANG=C date)/" static/index_j.html
       - name: Setup Pages
         uses: actions/configure-pages@v5
