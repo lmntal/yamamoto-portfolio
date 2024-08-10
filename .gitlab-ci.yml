@@ -1,3 +1,5 @@
+# This file is not currently used
+
 test:
   script:
     - ssh yamamoto@padano "rm -rf /home/yamamoto/public_html/portfolio"

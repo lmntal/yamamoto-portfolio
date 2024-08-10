@@ -1,4 +1,5 @@
 # ポートフォリオサイト
-GitLab CIで自動デプロイ
 
-[デプロイされたページを見る](https://www.ueda.info.waseda.ac.jp/~yamamoto/portfolio)
+GitHub Pages で自動デプロイ
+
+[デプロイされたページを見る](https://lmntal.github.io/yamamoto-portfolio)
